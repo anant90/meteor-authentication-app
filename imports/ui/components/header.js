@@ -1,4 +1,5 @@
 import React from 'react';
+import Account from './accounts';
 
 const Header = ()=>{
   return(
@@ -7,7 +8,7 @@ const Header = ()=>{
         <a className="navbar-brand">Authentication System</a>
       </div>
       <ul className="nav navbar-nav">
-      	<li><a href="#">Sign Up</a></li>
+      	<li><Account/></li>
       </ul>
     </nav>
   );

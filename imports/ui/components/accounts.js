@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import ReactDOM from 'react-dom';
+import {Blaze} from 'meteor/blaze';
+import { Template } from 'meteor/templating';
 
 class Account extends Component{
 
